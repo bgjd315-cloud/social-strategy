@@ -331,7 +331,16 @@ def main():
 <p class="sub">題目取自會考社會 111–115 年、學測社會與分科測驗歷史、地理、公民 107–115 年（共 2,078 題）。你的作答、筆記與勾選會自動存在這台裝置上。</p></header>
 <p style="margin-top:16px" id="summary"></p><div id="grid"></div>
 <div class="row no-print" style="margin-top:20px"><a class="btn" href="report.html">看我的分析報告</a>
-<button type="button" class="btn ghost" id="reset">清除我的作答紀錄</button></div>''', JS_INDEX)
+<button type="button" class="btn ghost" id="reset">清除我的作答紀錄</button></div>
+<section class="card" style="margin-top:28px"><p class="kicker">搭配使用</p><h2>兩種網站怎麼用？</h2>
+<p>老師準備了兩種網站，用的都是會考、學測和分科測驗的歷屆題目，但用途不一樣。</p>
+<h3>閱讀策略網站：學方法</h3>
+<ul><li>社會：<a href="https://bgjd315-cloud.github.io/social-strategy/">https://bgjd315-cloud.github.io/social-strategy/</a>（就是這個網站）</li></ul>
+<p>把史料、圖表、地圖和生活情境的讀法，整理成歷史、地理、公民各 8 種閱讀策略：先讀手冊學方法，再做學習單練習（答案與解析按鍵才出現），最後看分析報告，了解自己的強項和需要加強的地方。</p>
+<h3>判讀網站：大量練習</h3>
+<ul><li>社會：<a href="https://bgjd315-cloud.github.io/social-literacy/">https://bgjd315-cloud.github.io/social-literacy/</a></li></ul>
+<p>收錄全部 2,078 題歷屆題目，每一題都標出在考什麼能力、用了哪種資料、陷阱在哪裡，還可以依科目抽題練習。學會方法以後，到這裡多做題目，看看自己能不能把策略用出來。</p>
+<p><b>建議的順序：</b>先到策略網站學方法、打好基本功，再到判讀網站多練習。</p></section>''', JS_INDEX)
     page("handbook.html", "社會科閱讀策略手冊", '<header class="hero"><h1>社會科閱讀策略手冊</h1><p>先選科目和策略，讀懂它的用法，再做兩題歷屆例題。</p></header>'
          '<div class="chips" id="chips"></div><div id="main"></div>', JS_HANDBOOK)
     page("worksheets.html", "社會科策略學習單", '<header class="hero"><h1>學習單</h1><p>每份學習單練一種策略：先跟著步驟做示範題，再做兩題練習，最後寫反思。</p></header>'
